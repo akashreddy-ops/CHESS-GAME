@@ -7,3 +7,5 @@ It features a custom-designed chessboard, animated styling, and interactive game
 I built this project to strengthen my JavaScript logic and DOM manipulation skills.
 
 ---
+
+## 🌐 Live Demo
