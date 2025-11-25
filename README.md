@@ -10,4 +10,4 @@ I built this project to strengthen my JavaScript logic and DOM manipulation skil
 
 ## 🌐 Live Demo
 
-👉 [Play the Game] (chess-game-omega-eight.vercel.app)
+👉 [Play the Game](chess-game-omega-eight.vercel.app)
