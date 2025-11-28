@@ -16,3 +16,8 @@ I built this project to strengthen my JavaScript logic and DOM manipulation skil
 
 
 ## 🎮 About the Project
+
+
+This project recreates a simplified version of **Chess** inside the browser.  
+It uses **HTML div elements** to represent each square on the chessboard, dynamically rendered and color-coded using CSS.  
+The **script.js** file handles all piece logic — including movement, capturing, and turns — using JavaScript and jQuery events.
