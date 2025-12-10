@@ -27,3 +27,8 @@ The **script.js** file handles all piece logic — including movement, capturing
 
 
 ## 🧱 Project Structure
+
+📂 chess-game
+├── index.html # Main HTML file — defines the chessboard and layout
+├── style.css # Styling for board, cells, and neon effects
+└── script.js # Game logic and move handling
