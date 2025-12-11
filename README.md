@@ -35,3 +35,6 @@ The **script.js** file handles all piece logic — including movement, capturing
 ├── style.css # Styling for board, cells, and neon effects
 
 └── script.js # Game logic and move handling
+
+
+---
