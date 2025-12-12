@@ -38,3 +38,12 @@ The **script.js** file handles all piece logic — including movement, capturing
 
 
 ---
+
+
+## 🕹️ How to Play
+
+1. Open the game in your browser.  
+2. The board loads with pieces positioned at their standard starting places.  
+3. Click on a piece to select it.  
+4. Then click on a valid square to move it.  
+5. The display at the bottom shows whose turn it is: **White** or **Black**.  
