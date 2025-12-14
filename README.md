@@ -50,3 +50,6 @@ The **script.js** file handles all piece logic — including movement, capturing
 
 
 > ♟️ Game alternates turns automatically after each valid move.
+
+
+---
