@@ -53,3 +53,6 @@ The **script.js** file handles all piece logic — including movement, capturing
 
 
 ---
+
+
+## ✨ Features
