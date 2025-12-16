@@ -56,3 +56,13 @@ The **script.js** file handles all piece logic — including movement, capturing
 
 
 ## ✨ Features
+
+
+- ✅ **8×8 Chess Board** with coordinate labels (`a–h`, `1–8`)
+- ✅ **Dynamic Gameplay** using JavaScript DOM updates  
+- ✅ **Turn Indicator** – Displays “It’s White’s Turn” or “It’s Black’s Turn” dynamically  
+- ✅ **Animated Hover Effects** – Squares glow with neon animation when hovered  
+- ✅ **Responsive Design** – Board adjusts to different screen sizes  
+- ✅ **Custom Neon CSS Effects** – Blue, orange, and green glow effects on text and cells  
+- ✅ **Shake Animation** on hover for fun interaction  
+- ✅ **Minimal Dependencies** – only uses jQuery for event handling 
