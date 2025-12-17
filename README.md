@@ -66,3 +66,6 @@ The **script.js** file handles all piece logic — including movement, capturing
 - ✅ **Custom Neon CSS Effects** – Blue, orange, and green glow effects on text and cells  
 - ✅ **Shake Animation** on hover for fun interaction  
 - ✅ **Minimal Dependencies** – only uses jQuery for event handling 
+
+
+---
