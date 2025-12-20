@@ -72,3 +72,10 @@ The **script.js** file handles all piece logic — including movement, capturing
 
 
 ## 🎨 Styling Highlights (`style.css`)
+
+
+- `.gamecell`: Defines the look and feel of each cell (size, border, hover animation).
+- `.grey`: Applies alternating dark squares for the chessboard pattern.
+- `.neonblue_txt`, `.neongreen_txt`, `.neonorange_txt`: Add glowing animations using CSS keyframes.
+- `.shake-little`: Adds a subtle shaking hover animation for interactivity.
+- `#turn`: A live text box that updates dynamically to show whose move it is.
