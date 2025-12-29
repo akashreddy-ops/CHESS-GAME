@@ -79,3 +79,13 @@ The **script.js** file handles all piece logic — including movement, capturing
 - `.neonblue_txt`, `.neongreen_txt`, `.neonorange_txt`: Add glowing animations using CSS keyframes.
 - `.shake-little`: Adds a subtle shaking hover animation for interactivity.
 - `#turn`: A live text box that updates dynamically to show whose move it is.
+
+
+Example:
+```css
+.gamecell:hover {
+  color: #f1ecec;
+  background: rgba(37, 88, 228, 0.712);
+  transform: translate(10px, -10px);
+  animation: neonBlueText 1.5s ease-in-out infinite alternate;
+}
