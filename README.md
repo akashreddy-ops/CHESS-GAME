@@ -90,5 +90,22 @@ Example:
   animation: neonBlueText 1.5s ease-in-out infinite alternate;
 }
 
+---
+
+
 
 ⚙️ Logic Highlights (script.js)
+
+- The JavaScript file (script.js) contains logic for:
+
+- Initializing the chessboard and placing pieces.
+
+- Handling player turns.
+
+- Validating moves.
+
+- Changing the display to show the current player’s turn.
+
+- Managing click events on each square using jQuery ($('.gamecell').on('click', ...)).
+
+- It updates the board dynamically each time a valid move is made.
