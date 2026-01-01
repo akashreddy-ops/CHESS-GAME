@@ -89,3 +89,6 @@ Example:
   transform: translate(10px, -10px);
   animation: neonBlueText 1.5s ease-in-out infinite alternate;
 }
+
+
+⚙️ Logic Highlights (script.js)
