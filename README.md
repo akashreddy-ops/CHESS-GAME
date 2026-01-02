@@ -90,9 +90,7 @@ Example:
   animation: neonBlueText 1.5s ease-in-out infinite alternate;
 }
 
----
-
-
+```
 
 ⚙️ Logic Highlights (script.js)
 
@@ -109,3 +107,19 @@ Example:
 - Managing click events on each square using jQuery ($('.gamecell').on('click', ...)).
 
 - It updates the board dynamically each time a valid move is made.
+
+
+
+💡 How It Works (Step by Step)
+
+1. Board Creation:
+The index.html file manually defines all 64 squares using <div> elements with alternating classes (grey and default white).
+
+2. Styling:
+The style.css adds grid-like visuals, shadows, and animations to make the board appear polished.
+
+3. Logic Execution:
+The script.js file detects which square a player clicks on, determines which piece to move, and then updates the board accordingly.
+
+4. Turn Switching:
+After each valid move, the turn automatically switches and updates the display with animation (turnhighlight effect).
