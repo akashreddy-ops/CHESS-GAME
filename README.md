@@ -123,3 +123,11 @@ The script.js file detects which square a player clicks on, determines which pie
 
 4. Turn Switching:
 After each valid move, the turn automatically switches and updates the display with animation (turnhighlight effect).
+
+
+
+🚀 Run Locally
+
+You can run this game easily on your system:
+
+1️⃣ Clone the repository
