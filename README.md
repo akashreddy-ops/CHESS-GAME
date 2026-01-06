@@ -131,3 +131,6 @@ After each valid move, the turn automatically switches and updates the display w
 You can run this game easily on your system:
 
 1️⃣ Clone the repository :-  https://akashreddy-ops.github.io/CHESS-GAME/
+
+2️⃣ Open the project folder :- cd javascript-chess-game
+
