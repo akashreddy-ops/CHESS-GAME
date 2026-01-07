@@ -134,3 +134,8 @@ You can run this game easily on your system:
 
 2️⃣ Open the project folder :- cd javascript-chess-game
 
+3️⃣ Run the game
+
+Just open the file index.html in your browser!
+No server setup is required.
+
