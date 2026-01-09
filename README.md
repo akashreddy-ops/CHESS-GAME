@@ -142,3 +142,9 @@ No server setup is required.
 ---
 
 🧠 Concepts Used
+
+- DOM Manipulation using JavaScript and jQuery
+- CSS Grid and Flexbox for layout
+- Event Handling for interactivity
+- Conditional logic for player turns
+- Animated CSS effects using @keyframes
