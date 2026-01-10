@@ -148,3 +148,15 @@ No server setup is required.
 - Event Handling for interactivity
 - Conditional logic for player turns
 - Animated CSS effects using @keyframes
+
+
+---
+
+🧩 Future Improvements
+
+- ♕ Add piece-specific movement validation (Rook, Bishop, Knight, etc.)
+- ♟️ Add check, checkmate, and stalemate conditions
+- 🔄 Implement undo and restart functionality
+- 💾 Save current game state using localStorage
+- 💻 Add AI opponent mode
+
