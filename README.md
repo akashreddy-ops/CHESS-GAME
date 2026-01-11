@@ -160,3 +160,8 @@ No server setup is required.
 - 💾 Save current game state using localStorage
 - 💻 Add AI opponent mode
 
+
+---
+
+
+🙌 Author
