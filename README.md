@@ -170,4 +170,4 @@ No server setup is required.
 
 - 💼 Aspiring Web Developer
 - 🌱 Second-year student learning JavaScript and game development
-- 🌐 LinkedIn
+- 🌐 LinkedIn(https://www.linkedin.com/in/akash-reddy-a761b3321/)
