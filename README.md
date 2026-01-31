@@ -168,4 +168,6 @@ No server setup is required.
 
 👨‍💻 Akash Reddy Danapana
 
--
+- 💼 Aspiring Web Developer
+- 🌱 Second-year student learning JavaScript and game development
+- 🌐 LinkedIn
