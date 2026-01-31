@@ -1,173 +1,140 @@
-# CHESS-GAME
+# ♟️ JavaScript Chess Game
 
-# ♟️ JavaScript Chess Game by Akash
-
-This is a **fully functional Chess Game** built using **HTML**, **CSS**, and **JavaScript (with jQuery)**.  
-It features a custom-designed chessboard, animated styling, and interactive gameplay logic to move chess pieces.  
-I built this project to strengthen my JavaScript logic and DOM manipulation skills.
+A fully functional Chess Game built using **HTML, CSS, and JavaScript**.  
+This project demonstrates DOM manipulation, event handling, and basic game logic.  
+It was created as a learning project to improve my frontend and JavaScript skills.
 
 ---
 
 ## 🌐 Live Demo
 
-👉 [Play the Game](chess-game-omega-eight.vercel.app)
+👉 https://chess-game-omega-eight.vercel.app/
 
 ---
 
+## 📸 Screenshots
 
-## 🎮 About the Project
+![Screenshot 1](Screenshot%202026-01-31%20221732.png)
+![Screenshot 2](Screenshot%202026-01-31%20221816.png)
+![Screenshot 3](Screenshot%202026-01-31%20221834.png)
+![Screenshot 4](Screenshot%202026-01-31%20221848.png)
 
-
-This project recreates a simplified version of **Chess** inside the browser.  
-It uses **HTML div elements** to represent each square on the chessboard, dynamically rendered and color-coded using CSS.  
-The **script.js** file handles all piece logic — including movement, capturing, and turns — using JavaScript and jQuery events.
-
+> (Upload these images into your GitHub repository and keep the same file names)
 
 ---
 
+## 📁 Project Structure
 
-## 🧱 Project Structure
-
-📂 chess-game
-
-├── index.html # Main HTML file — defines the chessboard and layout
-
-├── style.css # Styling for board, cells, and neon effects
-
-└── script.js # Game logic and move handling
+chess-game/
+│
+├── index.html # Main HTML file (chessboard layout)
+├── style.css # Styling and animations
+└── script.js # Game logic and interactivity
 
 
 ---
 
+## 🎮 How to Play
 
-## 🕹️ How to Play
-
-1. Open the game in your browser.  
-2. The board loads with pieces positioned at their standard starting places.  
-3. Click on a piece to select it.  
-4. Then click on a valid square to move it.  
-5. The display at the bottom shows whose turn it is: **White** or **Black**.
-
-
-> ♟️ Game alternates turns automatically after each valid move.
-
+1. Open the game in your browser.
+2. Chessboard appears with all pieces in starting positions.
+3. Click on a piece to select it.
+4. Click on another square to move it.
+5. Turn automatically switches between White and Black.
+6. The turn indicator shows whose move it is.
 
 ---
-
 
 ## ✨ Features
 
-
-- ✅ **8×8 Chess Board** with coordinate labels (`a–h`, `1–8`)
-- ✅ **Dynamic Gameplay** using JavaScript DOM updates  
-- ✅ **Turn Indicator** – Displays “It’s White’s Turn” or “It’s Black’s Turn” dynamically  
-- ✅ **Animated Hover Effects** – Squares glow with neon animation when hovered  
-- ✅ **Responsive Design** – Board adjusts to different screen sizes  
-- ✅ **Custom Neon CSS Effects** – Blue, orange, and green glow effects on text and cells  
-- ✅ **Shake Animation** on hover for fun interaction  
-- ✅ **Minimal Dependencies** – only uses jQuery for event handling 
-
+- 8×8 Chess Board
+- Turn-based gameplay (White vs Black)
+- Interactive piece movement
+- Hover and neon glow effects
+- Turn indicator display
+- Responsive design
+- DOM manipulation with JavaScript
+- Clean UI layout
 
 ---
 
+## 🧰 Technologies Used
 
-## 🎨 Styling Highlights (`style.css`)
+- HTML5  
+- CSS3  
+- JavaScript  
+- jQuery  
 
+---
 
-- `.gamecell`: Defines the look and feel of each cell (size, border, hover animation).
-- `.grey`: Applies alternating dark squares for the chessboard pattern.
-- `.neonblue_txt`, `.neongreen_txt`, `.neonorange_txt`: Add glowing animations using CSS keyframes.
-- `.shake-little`: Adds a subtle shaking hover animation for interactivity.
-- `#turn`: A live text box that updates dynamically to show whose move it is.
+## ⚙️ How the Project Works
 
+1. **index.html**
+   - Creates the structure of the chessboard using div elements.
+   - Links CSS and JavaScript files.
 
-Example:
-```css
-.gamecell:hover {
-  color: #f1ecec;
-  background: rgba(37, 88, 228, 0.712);
-  transform: translate(10px, -10px);
-  animation: neonBlueText 1.5s ease-in-out infinite alternate;
-}
+2. **style.css**
+   - Styles each cell with borders and colors.
+   - Adds neon glow effects and hover animations.
+   - Designs the turn indicator box.
+
+3. **script.js**
+   - Handles chess piece positions.
+   - Controls turn switching logic.
+   - Manages click events on each square.
+   - Updates board dynamically after each move.
+
+---
+
+## 🚀 Run Locally
+
+Clone the repository:
+
+```bash
+git clone https://github.com/akashreddy-ops/chess-game.git
 
 ```
 
-⚙️ Logic Highlights (script.js)
+Open the folder:
 
-- The JavaScript file (script.js) contains logic for:
+```bash
+cd chess-game
+```
 
-- Initializing the chessboard and placing pieces.
+Run the project:
 
-- Handling player turns.
+Open index.html in your browser.
 
-- Validating moves.
 
-- Changing the display to show the current player’s turn.
+👨‍💻 Author
 
-- Managing click events on each square using jQuery ($('.gamecell').on('click', ...)).
+Akash Reddy Danapana
 
-- It updates the board dynamically each time a valid move is made.
+  - 🔗 LinkedIn: https://www.linkedin.com/in/akash-reddy-a761b3321/
+  - 💻 GitHub: https://github.com/akashreddy-ops
 
----
 
-💡 How It Works (Step by Step)
+📝 License
 
-1. Board Creation:
-The index.html file manually defines all 64 squares using <div> elements with alternating classes (grey and default white).
+This project is open-source and available under the MIT License.
 
-2. Styling:
-The style.css adds grid-like visuals, shadows, and animations to make the board appear polished.
+⭐ Acknowledgment
 
-3. Logic Execution:
-The script.js file detects which square a player clicks on, determines which piece to move, and then updates the board accordingly.
-
-4. Turn Switching:
-After each valid move, the turn automatically switches and updates the display with animation (turnhighlight effect).
-
----
-
-🚀 Run Locally
-
-You can run this game easily on your system:
-
-1️⃣ Clone the repository :-  https://akashreddy-ops.github.io/CHESS-GAME/
-
-2️⃣ Open the project folder :- cd javascript-chess-game
-
-3️⃣ Run the game
-
-Just open the file index.html in your browser!
-No server setup is required.
-
----
-
-🧠 Concepts Used
-
-- DOM Manipulation using JavaScript and jQuery
-- CSS Grid and Flexbox for layout
-- Event Handling for interactivity
-- Conditional logic for player turns
-- Animated CSS effects using @keyframes
+This project was built as part of my learning journey in web development and JavaScript.
+Feel free to fork, improve, and contribute.
 
 
 ---
 
-🧩 Future Improvements
+If you want, next I can help you with:
+✅ Proper **screenshot naming commands**  
+✅ Add **badges (HTML | CSS | JS)**  
+✅ Create a **Professional README version**  
+✅ Generate a **downloadable README.md file**  
 
-- ♕ Add piece-specific movement validation (Rook, Bishop, Knight, etc.)
-- ♟️ Add check, checkmate, and stalemate conditions
-- 🔄 Implement undo and restart functionality
-- 💾 Save current game state using localStorage
-- 💻 Add AI opponent mode
+Just say which one you want:
+**1) Download README file**  
+**2) Add badges**  
+**3) Professional version**  
+**4) All**
 
-
----
-
-
-🙌 Author
-
-👨‍💻 Akash Reddy Danapana
-
-- 💼 Aspiring Web Developer
-- 🌱 Second-year student learning JavaScript and game development
-- 🌐 LinkedIn(https://www.linkedin.com/in/akash-reddy-a761b3321/)
